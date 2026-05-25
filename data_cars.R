@@ -10,4 +10,4 @@ for (i in 1:n){
     status<-append(status,'rendah')
 }
 
-hist(mtcars$mpg)
+plot(mtcars$mpg,mtcars$qsec)
